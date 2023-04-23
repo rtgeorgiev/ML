@@ -1,9 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\web",
-    "\\web\\js"
+    "\\common",
+    "\\common\\js_objects",
+    "\\common\\node",
+    "\\data",
+    "\\data\\dataset",
+    "\\node"
   ],
-  "SelectedNode": "\\web\\js\\sketchPad.js",
+  "SelectedNode": "\\data\\dataset\\features.json",
   "PreviewInSolutionExplorer": false
 }
