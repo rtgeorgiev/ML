@@ -12,7 +12,7 @@ npm -v
 3. Run the following command to install project dependencies:
 npm install
 
-4. Still in the 'node directory, run the files to update the dataset by executing:
+4. Still in the 'node directory, run the files to update the dataset by executing consequtively:
 
 node dataset_generator.js
 
