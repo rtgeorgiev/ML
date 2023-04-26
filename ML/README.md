@@ -1,6 +1,5 @@
 1. Make sure you have Node.js and node package manager installed:
 https://nodejs.org/en
-
 You can check by executing:
 
 node -v
