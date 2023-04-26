@@ -13,6 +13,7 @@ utils.styles = {
     pencil: { color: 'magenta', text: '✏️' },
     clock: { color: 'lightgray', text: '🕒' },
 };
+utils.styles["?"] = { color: 'red', text: '❓' };
 
 utils.formatPercent = (n) => {
     return (n * 100).toFixed(2) + "%";
@@ -87,6 +88,14 @@ utils.normalizePoints = (points, minMax) => {
         }
     }
     return { min, max };
+}
+
+utils.toCSV = (headers, samples) => {
+    let str = headers.join(",") + "\n";
+    for (const sample of samples) {
+        str += sample.join(",") + "\n";
+    }
+    return str;
 }
 
 if (typeof module !== 'undefined') {
